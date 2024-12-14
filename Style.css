@@ -178,3 +178,20 @@ nav a:hover {
 }
    transform: scale(1.1); /* افزایش اندازه لینک هنگام hover */
 }
+
+/* ریسپانسیو */
+@media (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+
+    nav a {
+        display: block;
+        margin: 5px 0;
+    }
+
+    form {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
