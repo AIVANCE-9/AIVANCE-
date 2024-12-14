@@ -3,15 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
+    <title>Contact Us - AIVANCE</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Contact Us</h1>
-    <p>If you have any questions or need support, please contact us:</p>
-    <ul>
-        <li>Email: support@aivance.com</li>
-        <li>Phone: +1-234-567-890</li>
-        <li>Address: 123 Blockchain Avenue, Crypto City</li>
-    </ul>
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+    <main>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 AIVANCE. All rights reserved.</p>
+    </footer>
 </body>
 </html>
