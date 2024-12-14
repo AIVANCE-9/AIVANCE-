@@ -1,12 +1,9 @@
 /* عمومی */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: #f4f4f4;
     margin: 0;
     padding: 0;
-    body {
-    font-family: 'Roboto', sans-serif;
-}
 }
 
 header {
@@ -33,129 +30,13 @@ nav a {
     margin: 0 10px;
     background-color: #555;
     border-radius: 5px;
-}
-
-nav a:hover {
-    background-color: #777;
-}
-
-/* فوتر */
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-/* انیمیشن برای لینک‌ها */
-nav a {
-    transition: background-color 0.3s ease, transform 0.3s ease;
-}
-
-nav a:hover {
-   /* عمومی */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
-    body {
-    font-family: 'Roboto', sans-serif;
-}
-}
-
-header {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 20px;
-}
-
-h1 {
-    margin: 0;
-    font-size: 2.5em;
-}
-
-p {
-    font-size: 1.2em;
-}
-
-/* منو */
-nav a {
-    color: white;
-    text-decoration: none;
-    padding: 10px 20px;
-    margin: 0 10px;
-    background-color: #555;
-    border-radius: 5px;
-}
-
-nav a:hover {
-    background-color: #777;
-}
-
-/* فوتر */
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-/* انیمیشن برای لینک‌ها */
-nav a {
-    transition: background-color 0.3s ease, transform 0.3s ease;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* انیمیشن */
 }
 
 nav a:hover {
     background-color: #777;
     transform: scale(1.1); /* افزایش اندازه لینک هنگام hover */
 }
- background-color: #777;
- /* عمومی */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
-    body {
-    font-family: 'Roboto', sans-serif;
-}
-}
-
-header {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 20px;
-}
-
-h1 {
-    margin: 0;
-    font-size: 2.5em;
-}
-
-p {
-    font-size: 1.2em;
-}
-
-/* منو */
-nav a {
-    color: white;
-    text-decoration: none;
-    padding: 10px 20px;
-    margin: 0 10px;
-    background-color: #555;
-    border-radius: 5px;
-}
-
-nav a:hover {
-    background-color: #777;
-}
 
 /* فوتر */
 footer {
@@ -166,17 +47,6 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-}
-/* انیمیشن برای لینک‌ها */
-nav a {
-    transition: background-color 0.3s ease, transform 0.3s ease;
-}
-
-nav a:hover {
-    background-color: #777;
-    transform: scale(1.1); /* افزایش اندازه لینک هنگام hover */
-}
-   transform: scale(1.1); /* افزایش اندازه لینک هنگام hover */
 }
 
 /* ریسپانسیو */
