@@ -1,4 +1,4 @@
-/* استایل‌های عمومی */
+/* عمومی */
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #f4f4f4;
@@ -6,7 +6,6 @@ body {
     padding: 0;
 }
 
-/* هدر */
 header {
     background-color: #333;
     color: white;
@@ -19,70 +18,34 @@ h1 {
     font-size: 2.5em;
 }
 
-h2 {
-    font-size: 1.8em;
-    color: #333;
+p {
+    font-size: 1.2em;
 }
 
-/* استایل محتوا */
-main {
-    padding: 20px;
-}
-
-.about-content, .contact-content {
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-.about-content ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.about-content ul li {
-    margin: 10px 0;
-    font-size: 1.1em;
-}
-
-form {
-    margin-top: 20px;
-}
-
-form label {
+/* لوگو */
+.logo {
+    width: 150px; /* اندازه عرض لوگو */
+    height: auto; /* حفظ نسبت تصویر */
+    margin-bottom: 20px; /* فاصله از پایین */
     display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto; /* وسط‌چین کردن */
 }
 
-form input, form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-form button {
-    background-color: #4CAF50;
+/* منو */
+nav a {
     color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-form button:hover {
-    background-color: #45a049;
-}
-
-/* استایل لینک یوتیوب */
-.youtube-link a {
-    color: #1e88e5;
     text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #555;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-.youtube-link a:hover {
-    text-decoration: underline;
+nav a:hover {
+    background-color: #777;
+    transform: scale(1.1);
 }
 
 /* فوتر */
@@ -102,19 +65,34 @@ footer {
         padding: 10px;
     }
 
-    h1 {
-        font-size: 2em;
+    nav a {
+        display: block;
+        margin: 5px 0;
     }
 
-    h2 {
-        font-size: 1.5em;
+    form {
+        width: 90%;
+        margin: 0 auto;
     }
+}
 
-    form input, form textarea {
-        width: 100%;
-    }
+/* استایل‌دهی دکمه Get Token */
+.token-button-container {
+    text-align: center;
+    margin-top: 30px;
+}
 
-    form button {
-        width: 100%;
-    }
+.button {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button:hover {
+    background-color: #45a049;
+    transform: scale(1.1);
 }
