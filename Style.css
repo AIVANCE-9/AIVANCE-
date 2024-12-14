@@ -1,92 +1,88 @@
-/* استایل عمومی */
+/* استایل‌های عمومی */
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
     margin: 0;
     padding: 0;
-    line-height: 1.6;
-    background-color: #f4f4f4;
 }
 
-/* هدر خلاقانه */
-.hero {
-    height: 100vh;
-    background: linear-gradient(to bottom right, #333, #555), url('https://via.placeholder.com/1920x1080') no-repeat center/cover;
+/* هدر */
+header {
+    background-color: #333;
     color: white;
     text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-}
-
-.hero .overlay {
-    background-color: rgba(0, 0, 0, 0.5);
     padding: 20px;
-    border-radius: 10px;
 }
 
-.hero h1 {
-    font-size: 3em;
+h1 {
     margin: 0;
+    font-size: 2.5em;
 }
 
-.hero p {
-    font-size: 1.5em;
-    margin: 10px 0;
-}
-
-.button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: all 0.3s ease;
-    display: inline-block;
-    margin-top: 20px;
-}
-
-.button:hover {
-    background-color: #45a049;
-    transform: scale(1.1);
-}
-
-/* بخش ویژگی‌ها */
-.features {
-    text-align: center;
-    padding: 40px 20px;
-    background-color: #fff;
-}
-
-.features h2 {
-    margin-bottom: 20px;
-    font-size: 2em;
+h2 {
+    font-size: 1.8em;
     color: #333;
 }
 
-.feature-grid {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.feature {
-    background: #f9f9f9;
+/* استایل محتوا */
+main {
     padding: 20px;
-    margin: 10px;
+}
+
+.about-content, .contact-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.about-content ul li {
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
     border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    width: 30%;
-    min-width: 250px;
 }
 
-.feature h3 {
-    margin-top: 0;
-    color: #4CAF50;
+form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
-.feature p {
-    margin: 10px 0 0;
+form button:hover {
+    background-color: #45a049;
+}
+
+/* استایل لینک یوتیوب */
+.youtube-link a {
+    color: #1e88e5;
+    text-decoration: none;
+}
+
+.youtube-link a:hover {
+    text-decoration: underline;
 }
 
 /* فوتر */
@@ -94,33 +90,31 @@ footer {
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 20px;
-    position: relative;
-}
-
-footer .social-icons a {
-    color: white;
-    text-decoration: none;
-    margin: 0 10px;
-    transition: color 0.3s ease;
-}
-
-footer .social-icons a:hover {
-    color: #4CAF50;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 /* ریسپانسیو */
 @media (max-width: 768px) {
-    .feature-grid {
-        flex-direction: column;
-        align-items: center;
+    header {
+        padding: 10px;
     }
 
-    .hero h1 {
-        font-size: 2.5em;
+    h1 {
+        font-size: 2em;
     }
 
-    .hero p {
-        font-size: 1.2em;
+    h2 {
+        font-size: 1.5em;
+    }
+
+    form input, form textarea {
+        width: 100%;
+    }
+
+    form button {
+        width: 100%;
     }
 }
