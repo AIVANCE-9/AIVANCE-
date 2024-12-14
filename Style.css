@@ -46,3 +46,12 @@ footer {
     bottom: 0;
     width: 100%;
 }
+/* انیمیشن برای لینک‌ها */
+nav a {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #777;
+    transform: scale(1.1); /* افزایش اندازه لینک هنگام hover */
+}
